@@ -17,8 +17,8 @@ Software:
     cd craft_hccapx
 * Run it:  
     ./craft_hccapx.pl
-* Check the generated file with (ocl)Hashcat:  
-    ./oclHashcat64.bin -a 0 -m 2500 m02500.txt dict.txt
+* Check the generated file with hashcat:  
+    ./hashcat64.bin -a 0 -m 2500 m02500.txt dict.txt
 
 It is also possible to specify all the needed information directly on the command line (i.e. without entering the interactive mode).  
 Each argument can be looked up in the usage/help screen:  
